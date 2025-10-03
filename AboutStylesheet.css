@@ -1,15 +1,30 @@
 .hamburger-menu div ul li a {
   /* background-color: aqua; */
+  text-decoration: none;
+  color: white;
+ 
+  /* background-color: black; */
 }
 
 .hamburger-menu div ul li {
-  background-color: aqua;
-  display: inline;
-  margin-right: 30px;
+display: inline;
+margin-right: 20px;
+padding-right: 90px;
+border: 2px solid rgb(8, 8, 8);
+border-radius: 6px;
+padding: 10px;
+padding-right: 25px;
+padding-left: 25px;
+background-color: black;
+width: 500px;
+
 }
 
 .hamburger-menu div ul {
 list-style-type: none;
+width: 500px;
+
+
 /* padding-right: 90px; */
 
 }
@@ -17,16 +32,18 @@ list-style-type: none;
 .hamburger-menu{
     border: 2px solid black;
    
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     
     
 }
 .hamburger-menu div{
     border: 2px solid black;
     margin-right: 80px;
-
+    /* background-color: #f87000; */
+    
 }
 
 .About{
@@ -98,3 +115,13 @@ list-style-type: none;
    
 }
 
+
+.MainBackground{
+    border: 1px solid black;
+    height: 50px;
+    background-color: #F2EEEE;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+
+}

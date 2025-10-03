@@ -9,7 +9,7 @@
 .hamburger-menu div ul li {
 display: inline;
 margin-right: 20px;
-padding-right: 90px;
+/* padding-right: 90px; */
 border: 2px solid rgb(8, 8, 8);
 border-radius: 6px;
 padding: 10px;
@@ -22,7 +22,8 @@ width: 500px;
 
 .hamburger-menu div ul {
 list-style-type: none;
-width: 500px;
+/* width: 500px; */
+border: 1px solid black;
 
 
 /* padding-right: 90px; */
@@ -42,8 +43,22 @@ width: 500px;
 .hamburger-menu div{
     border: 2px solid black;
     margin-right: 80px;
+    width: 700px;
     /* background-color: #f87000; */
-    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Circular-Image{
+   
+  
+    width: 70px; /* Adjust size as needed */
+    height: 70px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
 }
 
 .About{

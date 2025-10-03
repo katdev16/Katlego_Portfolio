@@ -141,7 +141,7 @@ border: 1px solid black;
 
 .Background2{
     border: 1px solid black;
-    height: 300px;
+    height: 700px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -150,13 +150,13 @@ border: 1px solid black;
 
     .Background2 .Edu{
         border: 1px solid black;
-        height: 100px;
-        width: 100px;
+        height: 400px;
+        width: 400px;
     }
     .Background2 .Exp{
         border: 1px solid black;
-        height: 100px;
-        width: 100px;
+        height: 300px;
+        width: 400px;
     }
 
 

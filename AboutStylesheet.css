@@ -1,3 +1,6 @@
+
+/* Nav bar section */
+
 .hamburger-menu div ul li a {
   /* background-color: aqua; */
   text-decoration: none;
@@ -10,7 +13,7 @@
 display: inline;
 margin-right: 20px;
 /* padding-right: 90px; */
-border: 2px solid rgb(8, 8, 8);
+/* border: 2px solid rgb(8, 8, 8); */
 border-radius: 6px;
 padding: 10px;
 padding-right: 25px;
@@ -23,7 +26,7 @@ width: 500px;
 .hamburger-menu div ul {
 list-style-type: none;
 /* width: 500px; */
-border: 1px solid black;
+/* border: 1px solid black; */
 
 
 /* padding-right: 90px; */
@@ -31,7 +34,7 @@ border: 1px solid black;
 }
 
 .hamburger-menu{
-    border: 2px solid black;
+    /* border: 2px solid black; */
    
     height: 100px;
     display: flex;
@@ -41,7 +44,7 @@ border: 1px solid black;
     
 }
 .hamburger-menu div{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 80px;
     width: 700px;
     /* background-color: #f87000; */
@@ -52,6 +55,13 @@ border: 1px solid black;
 }
 
 
+
+
+
+
+
+/* half circle image */
+
 .Circular-Image{
    
   
@@ -61,9 +71,16 @@ border: 1px solid black;
     object-fit: cover; /* Ensures the image fits within the circle */
 }
 
+
+
+
+
+/* About Section */
+
 .About{
-    border: 1px solid black;
-    height: 900px;
+  
+    /* border: 1px solid black; */
+    height: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,8 +88,9 @@ border: 1px solid black;
 
     .About .AboutMe{
         border: 1px solid black;
-        height: 700px;
-        width: 500px;
+        border-radius: 20px;
+        height: 400px;
+        width: 300px;
        
         padding: 10px 40px;
         display: flex;
@@ -82,32 +100,44 @@ border: 1px solid black;
     }
 
         .About .AboutMe h1{
-            font-size: 64px;
+            margin: 0px;
+            font-size: 36px;
             font-weight: bold;
         }
 
         .About .AboutMe p{
-            font-size: 32px;
+            font-size: 20px;
         
         }
         .About .AboutMe button{
-            font-size: 24px;
+            font-size: 16px;
             color: white;
             padding: 10px 20px;
             background-color: rgb(0, 0, 0);
             border: none;
-            border-radius: 6px;
+            border-radius: 25px;
             cursor: pointer;
         }
     .About .Image{
-        border: 1px solid black;
-        height: 450px;
-        width: 350px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        height: 350px;
+        width: 250px;
     }
 
+    hr{
+        margin: 0px;
+    }
+
+
+
+
+
+/* Background Section */
+
 .Background{
-    border: 1px solid black;
-    height: 300px;
+    /* border: 1px solid black; */
+    height: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -116,32 +146,32 @@ border: 1px solid black;
 }
 
     .Background .Edu{
-        border: 1px solid black;
-        height: 250px;
+        /* border: 1px solid black; */
+        height: 150px;
         width: 400px;
     }
         .Background .Edu h1{
-            font-size: 64px;
+            font-size: 36px;
         }
         .Background .Edu p{
-            font-size: 24px;
+            font-size: 16px;
         }
     .Background .Exp{
-        border: 1px solid black;
-        height: 250px;
+        /* border: 1px solid black; */
+        height: 150px;
         width: 400px;
     }
         .Background .Exp h1{
-                font-size: 64px;
+                font-size: 36px;
             }
         .Background .Exp p{
-            font-size: 24px;
+            font-size: 16px;
         }
 
 
 .Background2{
-    border: 1px solid black;
-    height: 700px;
+    /* border: 1px solid black; */
+    height: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -150,31 +180,125 @@ border: 1px solid black;
 
     .Background2 .Edu{
         border: 1px solid black;
-        height: 400px;
+        border-radius: 20px;
+        height: 350px;
         width: 400px;
+         padding: 10px 20px;
+      
     }
+        .Background2 .Edu div{
+            /* border: 1px solid black; */
+            display: flex;
+        }
+    
     .Background2 .Exp{
         border: 1px solid black;
-        height: 300px;
+         border-radius: 10px 10px;
+         padding: 20px;
+        height: 250px;
         width: 400px;
     }
+
+        .Background2 .Exp div{
+            /* border: 1px solid black; */
+            display: flex;
+        }
+
+
+
+
+
+
+
+/* Main Background Section */
+
+.MainBackground{
+    /* border: 1px solid black; */
+    height: 50px;
+    background-color: #F2EEEE;
+    width: 100%;
+    text-align: center;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+
+}
+
+.MainBackground2{
+    /* border: 1px solid black; */
+    height: 250px;
+    /* background-color: #F2EEEE; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+    .MainBackground2 div{
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+        background-color: white;
+    
+
+    }
+    .MainBackground2 .Content{
+    
+        height: 140px;
+        width: 200px;
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+    }
+        .MainBackground2 .Content img{
+            width: 50px;
+            height: 50px;
+        }
+
+        .MainBackground2 .Content h3{
+            font-size: 20px;
+        }
+        .MainBackground2 .Content p{
+            font-size: 18px;
+        }
+
+
+
+
+
+
+
+.Section{
+    /* border: 2px solid #ec0000; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Section h1{
+   /* padding-left: 100px; */
+   font-size: 32px;
+   font-weight: bold;
+}
+
+
 
 
 #Footer{
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     background-color: rgb(255, 137, 2);
     height: 50px;
     text-align: center;
    
 }
 
-
-.MainBackground{
-    border: 1px solid black;
-    height: 50px;
-    background-color: #F2EEEE;
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
-
+.MainBackground .slider1{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    transform: rotate(180deg);
 }
+
+
+/* .MainBackground{
+    height: 400px;
+} */

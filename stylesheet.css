@@ -1,0 +1,342 @@
+div.details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+ /* align-items: center; */
+    height: 50vh;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-bottom: 300px; */
+    text-align: center;
+    /* margin-right: 700px; */
+    /* border: 2px solid #000; */
+    padding-top: 80px;
+
+}
+.container {
+    display: flex;
+  
+}
+
+.responsive-image {
+    max-width: 100%; /* Image will not exceed the container's width */
+    height: 35px;    /* Maintains aspect ratio */
+    padding-left: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .arrowup {
+    height: 50px;
+    margin-left: 100vh;
+    margin-top: 20px;
+  }
+
+.logo{
+    /* border: 2px solid #000; */
+    
+}
+
+.circle-image{
+    /* border: 2px solid #000; */
+    height: 75vh;
+}
+.circle-image img {
+    
+    margin-top: 70px;
+    margin-right: 150px;
+  
+   
+    
+    align-items: center;
+    width: 300px; /* Adjust size as needed */
+    height: 300px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
+    /* border: 2px solid #000;  */
+}
+
+.circle-image h1{
+    /* border: 2px solid rgb(8, 8, 8);
+    border-radius: 40px;
+    width: 400px; */
+    margin-top: 0%;
+    font-size: 32px;
+    /* padding-right: 200px; */
+
+}
+
+div.details h2 {
+    font-size: 40px;
+    color: #333;
+    margin: 0% auto;
+}
+
+div.details h1 {
+    font-size: 64px;
+    color: #000;
+    margin: 0% auto;
+}
+
+div.details button {
+    font-size: 24px;
+    color: #000000;
+    background-color: rgb(254, 255, 255);
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 40px;
+    width: 150px;
+    margin: 2% auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+div.details button:hover {
+    transform: scale(1.1);
+  background-color: #f87000;
+}
+
+.hamburger-menu nav {
+/* background-color: #333; */
+padding: 10px;
+/* padding-left: 200px; */
+/* padding-right: 200px; */
+margin-left: 700px;
+}
+.hamburger-menu nav ul {
+list-style-type: none;
+/* padding-right: 90px; */
+
+}
+.hamburger-menu nav ul li {
+display: inline;
+margin-right: 20px;
+padding-right: 90px;
+border: 2px solid rgb(8, 8, 8);
+border-radius: 6px;
+padding: 10px;
+padding-right: 25px;
+padding-left: 25px;
+background-color: black;
+
+}
+.hamburger-menu nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+
+
+.rectangle {
+  width: 100%;
+  height: 100px; 
+  background-color: #f87000;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 100px;
+}
+
+
+/* Open Button */
+/* .arrowup {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 5px;
+
+} */
+
+#footerText{
+    margin-top: -20px;
+}
+
+#footerText p{
+    color: white;
+    padding-left: 100px;
+    
+}
+.footertext{
+    margin: -5px;
+}
+
+#footerText h1 {
+  color: white;
+  padding: 10px;
+  font-size: 32px;
+  padding-left: 100px;
+
+}
+
+#footerText button {
+ 
+
+  font-size: 20px;
+  margin-right: 100px;
+  color: white;
+  background-color: black
+  ;
+  border-radius: 6px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 150px;
+ 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+  
+  /* border: 2px solid #000; */
+}
+
+.circle-image-footer{
+    display: flex;
+    margin-top: 30px;
+    /* margin-left: 100px; */
+}
+
+.circle-image-footer img{
+   
+    align-items: center;
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
+}
+
+.circle-image-footer h2{
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+   
+}
+.footer-details{
+    /* border: 2px solid #000; */
+    /* margin-right: 1000px; */
+    width: 300px;
+    margin-left: 100px;
+}
+
+.footer-details p{
+    /* border: 2px solid #000; */
+    font-size: 16px;
+    color: white;
+    /* padding-right: 100px; */
+    /* margin-left: 100px; */
+    /* text-align: right; */
+}
+
+.footerText p{
+    font-size: 12px;
+    color: rgb(209, 0, 0);
+    padding-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 60px;
+    /* text-align: right; */
+}
+
+.logo2{
+    /* height: 10px; */
+    /* margin-left: 90px; */
+    /* border: 2px solid #000; */
+   margin-bottom: -0px;
+}
+
+.logo2 img{
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+    /* border: 2px solid #000; */
+}
+
+
+
+/* .NavigationMenu{
+    display: flex;
+    margin-bottom: 500px;
+    border: 2px solid #000;
+   
+    margin-right: 400px;
+    margin-left: 400px;
+    
+} */
+
+
+.footer-details-02, .footer-details, .footer-details-03{
+    width: 400px;
+    
+    /* border: 2px solid #000; */
+   
+    /* margin-right: 1000px; */
+}
+
+.footer-content-02{
+    /* border: 2px solid #ffffff; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+  
+  
+  
+    
+   
+    /* align-items: center; */
+
+    /* padding: 20px; */
+    
+    /* border: 2px solid #000; */
+}
+
+.footer-details-02 div h2{
+    color: white;
+}
+.footer-details-03 div h2{
+    color: white;
+}
+.footer-details-02 div nav ul{
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+.footer-details-02 div nav ul li{
+    
+    /* padding: 5px; */
+}
+
+.footer-details-02 div nav ul li   a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-details p{
+    margin-left: -100px;
+    font-size: 32;
+
+}
+
+.footer-details-02 div, .footer-details-03 div{
+    /* padding-left: 120px; */
+    /* width: 250px;
+    border: 2px solid #000;
+    margin-left: 80px;
+   */
+    text-align: center;
+    
+   
+    /* margin-right: 1000px; */
+}
+
+.footer-details-03 div p{
+    /* text-align: center; */
+    padding-right: 100px;
+    
+}

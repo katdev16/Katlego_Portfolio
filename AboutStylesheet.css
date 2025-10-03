@@ -1,0 +1,100 @@
+.hamburger-menu div ul li a {
+  /* background-color: aqua; */
+}
+
+.hamburger-menu div ul li {
+  background-color: aqua;
+  display: inline;
+  margin-right: 30px;
+}
+
+.hamburger-menu div ul {
+list-style-type: none;
+/* padding-right: 90px; */
+
+}
+
+.hamburger-menu{
+    border: 2px solid black;
+   
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.hamburger-menu div{
+    border: 2px solid black;
+    margin-right: 80px;
+
+}
+
+.About{
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .About .AboutMe{
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+    }
+    .About .AboutMe2{
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+    }
+
+.Background{
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+    .Background .Edu{
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+    }
+    .Background .Exp{
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+    }
+
+
+.Background2{
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+    .Background2 .Edu{
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+    }
+    .Background2 .Exp{
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+    }
+
+
+#Footer{
+    border: 2px solid #000;
+    background-color: rgb(255, 137, 2);
+    height: 50px;
+    text-align: center;
+   
+}
+

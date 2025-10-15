@@ -1,5 +1,8 @@
 /* Nav bar section */
+body{
 
+  
+}
 .hamburger-menu div ul li a {
   /* background-color: aqua; */
   text-decoration: none;
@@ -96,9 +99,6 @@ list-style-type: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-  
-   
 }
     .section .text{
         margin-top: 40px;
@@ -124,4 +124,63 @@ list-style-type: none;
             display: flex;
             justify-content: space-around;
             align-items: center;
+            display: block;
         }
+            .section .sectionSkills .section-content img{
+            width: 100%;
+            height: 80%;
+        }
+
+.section2{
+    height: 500px;
+    width: 100%;
+    
+    border: 2px solid rgb(200, 255, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    .section2 .text{
+    
+        height: 100%;
+        width: 45%;
+        border: 2px solid black;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .section2 .text .content{
+            border: 1px solid black;
+            height: 100px;
+            width: 100%;
+        }
+    .section2 .sectionSkills{
+       
+        height: 50%;
+        width: 30%;
+        border: 2px solid rgb(10, 44, 240);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+    }
+    
+        .section2 .sectionSkills .section-content2{
+            border: 2px solid black;
+            height: 300px;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         .section2 .sectionSkills .section-content2 div{
+            height: 100%;
+            width: 50%;
+            border: #f87000 2px solid;
+            text-align: center;
+         }
+   

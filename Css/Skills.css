@@ -136,7 +136,7 @@ list-style-type: none;
     height: 500px;
     width: 100%;
     
-    border: 2px solid rgb(200, 255, 0);
+    /* border: 2px solid rgb(200, 255, 0); */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -147,14 +147,14 @@ list-style-type: none;
     
         height: 100%;
         width: 45%;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         /* text-align: center; */
         display: flex;
         justify-content: center;
         align-items: center;
     }
         .section2 .text .content{
-            border: 1px solid black;
+            /* border: 1px solid black; */
             height: 100px;
             width: 100%;
         }
@@ -162,7 +162,7 @@ list-style-type: none;
        
         height: 50%;
         width: 30%;
-        border: 2px solid rgb(10, 44, 240);
+        /* border: 2px solid rgb(10, 44, 240); */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -171,7 +171,7 @@ list-style-type: none;
     }
     
         .section2 .sectionSkills .section-content2{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             height: 300px;
             width: 250px;
             display: flex;
@@ -179,9 +179,17 @@ list-style-type: none;
             align-items: center;
         }
          .section2 .sectionSkills .section-content2 div{
-            height: 100%;
-            width: 50%;
-            border: #f87000 2px solid;
+            height: 100px;
+            width: 100px;
+            /* border: #f87000 2px solid; */
             text-align: center;
+         }
+         .section2 .sectionSkills .section-content2 div img{
+            width: 50px;
+            height: 80px;
+         }
+
+         .section2 .sectionSkills .section-content2 div p{
+            margin-top: 0px;
          }
    

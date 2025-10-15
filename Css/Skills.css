@@ -94,7 +94,7 @@ list-style-type: none;
 
 .section{
     height: 500px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,27 +104,28 @@ list-style-type: none;
         margin-top: 40px;
         height: 100px;
         width: 80%;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         text-align: center;
     }
     .section .sectionSkills{
         margin-top: 50px;
         height: 500px;
         width: 80%;
-        border: 2px solid rgb(255, 0, 0);
+        /* border: 2px solid rgb(255, 0, 0); */
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 50px;
     }
         .section .sectionSkills .section-content{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             height: 300px;
             width: 250px;
             display: flex;
             justify-content: space-around;
             align-items: center;
             display: block;
+            text-align: center;
         }
             .section .sectionSkills .section-content img{
             width: 100%;

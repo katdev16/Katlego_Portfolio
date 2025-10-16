@@ -66,6 +66,34 @@ list-style-type: none;
 
 
 
+.sectionText{
+    text-align: center;
+}
+
+.section .Domains{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+   
+}
+
+.section .Domains .sectionContent{
+    border: #000000 2px solid;
+    border-radius: 10px;
+    padding: 0px;
+   
+    margin-top: 0px;
+}
+
+.section .Domains .sectionContent p{
+    margin: 5px;
+    padding: 3px;
+}
+
+
+
 
 #Footer{
     /* border: 2px solid #000; */
@@ -87,5 +115,7 @@ list-style-type: none;
 
    
 }
+
+
 
 

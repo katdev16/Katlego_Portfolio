@@ -110,15 +110,17 @@ list-style-type: none;
 .hamburger-menu nav ul li {
 display: inline;
 margin-right: 20px;
-padding-right: 90px;
-border: 2px solid rgb(8, 8, 8);
+/* padding-right: 90px; */
+/* border: 2px solid rgb(8, 8, 8); */
 border-radius: 6px;
 padding: 10px;
 padding-right: 25px;
 padding-left: 25px;
 background-color: black;
+width: 500px;
 
 }
+
 .hamburger-menu nav ul li a {
 color: white;
 text-decoration: none;

@@ -53,18 +53,26 @@
                 <p>Here are some of the projects I've worked on.</p>
             </div>
             <div class="Domains">
-                <div class="sectionContent">
+                <div class="sectionContent" id="All" onclick="handleDomainClick(event);">
                     <p>All</p>
                 </div>
-                <div class="sectionContent">
-                    <p>web development</p>
+                <div class="sectionContent" id="web-development" onclick="handleDomainClick(event);">
+                    <p>web-development</p>
                 </div>
-                <div class="sectionContent">
+                <div class="sectionContent" id="designs" onclick="handleDomainClick(event);">
                     <p>designs</p>
                 </div>
-                <div class="sectionContent">
-                    <p>case studies</p>
+                <div class="sectionContent" id="case-studies" onclick="handleDomainClick(event);">
+                    <p>case-studies</p>
                 </div>
+         
+            <!-- // function handleDomainClick(event) {
+            //     // Your event handling logic here
+            //     alert('Clicked: ' + event.currentTarget.textContent.trim());
+            //     const domain = document.getElementById(event.currentTarget.textContent.trim());
+            //     domain.style.backgroundColor = 'blue';
+            // } -->
+           
             </div>
             <div class="projects">
                 <div class="project"></div>

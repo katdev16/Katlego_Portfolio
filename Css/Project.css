@@ -79,7 +79,7 @@ list-style-type: none;
    
 }
 
-    .section .Domains .sectionContent{
+    .section .Domains div{
         border: #000000 2px solid;
         border-radius: 10px;
         padding: 0px;
@@ -87,7 +87,7 @@ list-style-type: none;
         margin-top: 0px;
     }
 
-        .section .Domains .sectionContent p{
+        .section .Domains div p{
             margin: 5px;
             padding: 3px;
         }

@@ -57,4 +57,43 @@ function toggleFooter() {
 
 
 
+const SelectedDomains = [];
+function handleDomainClick(event) {
+    // selected div element by id
+  const domain = event.currentTarget.id;
+
+  // selected div block by id
+  const domainElement = document.getElementById(domain);
+
+  
+    console.log(SelectedDomains);
+    const lastElement = SelectedDomains[SelectedDomains.length-1]
+    const firstElement =SelectedDomains[0]
+
+    
+    if(SelectedDomains.length > 0){
+      document.getElementById(lastElement).style.backgroundColor = 'white';
+      document.getElementById(lastElement).style.color = 'black';
+      // firstElement.style.backgroundColor = 'orange';
+      domainElement.style.backgroundColor = 'orange';
+      domainElement.style.color = 'white';
+      SelectedDomains.pop();
+      SelectedDomains.push(domain);
+     
+    }else{
+      console.log('first ' + firstElement)
+      console.log('last ' + lastElement)
+      domainElement.style.backgroundColor = 'orange';
+      domainElement.style.color = 'white';
+      SelectedDomains.push(domain);
+
+      
+
+    } 
+    
+    // console.log(SelectedDomains);
+  
+
+}
+
 

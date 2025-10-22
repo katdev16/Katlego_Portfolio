@@ -70,8 +70,41 @@ function handleDomainClick(event) {
     const lastElement = SelectedDomains[SelectedDomains.length-1]
     const firstElement =SelectedDomains[0]
 
+    console.log("-------")
+    console.log(domain)
+     console.log("-------")
+
+    // document.getElementById('web-developmentProject').style.display = 'none';
+    // document.getElementById('designsProject').style.display = 'block';
+    // document.getElementById('case-studiesProject').style.display = 'block';
     
+    if(domain === 'web-development'){
+      console.log('in web dev')
+      
+      document.getElementById('designsProject').style.display = 'none';
+      document.getElementById('case-studiesProject').style.display = 'none';
+      document.getElementById('web-developmentProject').style.display = 'block';
+    }else if(domain === 'designs'){
+      document.getElementById('web-developmentProject').style.display = 'none';
+      document.getElementById('case-studiesProject').style.display = 'none';
+      document.getElementById('designsProject').style.display = 'block';
+
+    }else if(domain === 'case-studies'){
+
+      document.getElementById('web-developmentProject').style.display = 'none';
+      document.getElementById('designsProject').style.display = 'none';
+      document.getElementById('case-studiesProject').style.display = 'block';
+    }else if(domain === 'All'){
+
+      document.getElementById('web-developmentProject').style.display = 'block';
+      document.getElementById('designsProject').style.display = 'block';
+      document.getElementById('case-studiesProject').style.display = 'block';
+    }
+  
+
     if(SelectedDomains.length > 0){
+      // if(domain){}
+
       document.getElementById(lastElement).style.backgroundColor = 'white';
       document.getElementById(lastElement).style.color = 'black';
       // firstElement.style.backgroundColor = 'orange';

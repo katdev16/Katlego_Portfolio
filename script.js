@@ -57,7 +57,7 @@ function toggleFooter() {
 
 
 
-const SelectedDomains = [];
+const SelectedDomains = ['All'];
 function handleDomainClick(event) {
     // selected div element by id
   const domain = event.currentTarget.id;

@@ -80,7 +80,8 @@ list-style-type: none;
 }
 
     .section .Domains div{
-        border: #000000 1px solid;
+        /* border: #000000 1px solid; */
+         box-shadow: 2px 2px 5px rgb(175, 175, 175);
         border-radius: 10px;
         padding: 0px;
     
@@ -99,12 +100,13 @@ list-style-type: none;
             gap: 10px;
         }
         .section .projects div{
-            border: #000000 0.5px solid;
+            border: #aaaaaa86 0.3px solid;
             border-radius: 10px;
             padding: 0px;
             height: 200px;
             width: 200px;
             margin-top: 0px;
+            /* box-shadow: 0px 0px 5px rgba(8, 8, 8, 0.623); */
            
         }
         .section .projects div .Project-Image{
@@ -121,7 +123,7 @@ list-style-type: none;
 
 
 #Footer{
-    /* border: 2px solid #000; */
+    border: 2px solid #000;
     background-color: rgb(255, 137, 2);
     /* height: 30px; */
     text-align: center;

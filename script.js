@@ -78,28 +78,34 @@ function handleDomainClick(event) {
     // document.getElementById('designsProject').style.display = 'block';
     // document.getElementById('case-studiesProject').style.display = 'block';
     
-    if(domain === 'web-development'){
-      console.log('in web dev')
-      
-      document.getElementById('designsProject').style.display = 'none';
-      document.getElementById('case-studiesProject').style.display = 'none';
-      document.getElementById('web-developmentProject').style.display = 'block';
-    }else if(domain === 'designs'){
-      document.getElementById('web-developmentProject').style.display = 'none';
-      document.getElementById('case-studiesProject').style.display = 'none';
-      document.getElementById('designsProject').style.display = 'block';
+    // ...existing code...
+    // map domain IDs to project class names
+    const domainToClass = {
+      'web-development': 'web-developmentProject',
+      'designs': 'designsProject',
+      'case-studies': 'case-studiesProject'
+    };
 
-    }else if(domain === 'case-studies'){
+    // hide all project items
+    const projectItems = document.querySelectorAll('.projects > div');
+    projectItems.forEach(el => el.style.display = 'none');
 
-      document.getElementById('web-developmentProject').style.display = 'none';
-      document.getElementById('designsProject').style.display = 'none';
-      document.getElementById('case-studiesProject').style.display = 'block';
-    }else if(domain === 'All'){
-
-      document.getElementById('web-developmentProject').style.display = 'block';
-      document.getElementById('designsProject').style.display = 'block';
-      document.getElementById('case-studiesProject').style.display = 'block';
+    if (domain === 'All') {
+      // show everything
+      projectItems.forEach(el => el.style.display = 'block');
+    } else {
+      const cls = domainToClass[domain];
+      if (cls) {
+        // show all elements that have the matching class
+        const matches = document.getElementsByClassName(cls); // HTMLCollection
+        for (let i = 0; i < matches.length; i++) {
+          matches[i].style.display = 'block';
+        }
+      } else {
+        console.warn('Unknown domain:', domain);
+      }
     }
+// ...existing code...
   
 
     if(SelectedDomains.length > 0){

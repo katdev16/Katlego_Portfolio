@@ -151,6 +151,7 @@ list-style-type: none;
         /* border: 1px solid black; */
         height: 150px;
         width: 400px;
+    
     }
         .Background .Edu h1{
             font-size: 36px;
@@ -162,6 +163,7 @@ list-style-type: none;
         /* border: 1px solid black; */
         height: 150px;
         width: 400px;
+       
     }
         .Background .Exp h1{
                 font-size: 36px;
@@ -181,11 +183,13 @@ list-style-type: none;
 }
 
     .Background2 .Edu{
-        border: 1px solid black;
+        /* border: 1px solid black; */
+        box-shadow: 1px 1px 5px rgb(216, 200, 200);
+        
         border-radius: 20px;
         height: 350px;
         width: 400px;
-         padding: 10px 20px;
+        padding: 10px 20px;
       
     }
         .Background2 .Edu div{
@@ -194,9 +198,10 @@ list-style-type: none;
         }
     
     .Background2 .Exp{
-        border: 1px solid black;
-         border-radius: 10px 10px;
-         padding: 20px;
+        /* border: 1px solid black; */
+        box-shadow: 1px 1px 5px rgb(216, 200, 200);
+        border-radius: 10px 10px;
+        padding: 20px;
         height: 250px;
         width: 400px;
     }

@@ -9,8 +9,8 @@ function TopFunction() {
 
   
  // Add transitions
-  footer.style.transition = "height 0.6s ease";
-  arrow.style.transition = "transform 0.6s ease";
+  footer.style.transition = "height 0.1s ease";
+  arrow.style.transition = "transform 0.9s ease";
 
 
   if (!isFooterOpen) {
